@@ -1,0 +1,42 @@
+# Shopify Automation & Analytics Portfolio
+
+This repository contains a collection of Python tools designed to automate complex eCommerce operations, SEO management, and inventory analytics for Shopify stores. 
+
+## 📂 Project Structure
+
+### 1. `shopify_seo_automation_system.py`
+**Description:** A robust object-oriented system for automated SEO optimization.
+**Key Features:**
+- **AI Integration:** Leverages Google Gemini API to generate professional meta titles and descriptions.
+- **GraphQL Mastery:** Uses advanced Shopify GraphQL queries to efficiently read and write metadata.
+- **Smart Validation:** Includes logic to validate character counts and content quality before publishing.
+- **Error Handling:** Implements comprehensive logging and error protection for production environments.
+
+### 2. `inventory_analytics_reporter.py`
+**Description:** A targeted analytics tool for inventory health monitoring.
+**Key Features:**
+- **Custom Reporting:** Identifies specific stock risk levels (e.g., inventory < 2).
+- **Data Aggregation:** Calculates inventory totals and variance.
+- **Pagination Handling:** Efficiently processes large catalogs using cursor-based pagination.
+
+### 3. `content_migration_manager.py`
+**Description:** An automation script for bulk content migration and management.
+**Key Features:**
+- **HTML Parsing:** Converts local HTML content into Shopify-compatible blog posts.
+- **Duplicate Prevention:** Checks for existing handles to prevent content duplication.
+- **REST API:** Demonstrates proficiency with Shopify's REST admin API.
+
+### 4. `offline_to_online_product_matcher.py`
+**Description:** A utility to bridge physical inventory with digital systems.
+**Key Features:**
+- **Fuzzy Matching:** Intellectually matches offline product names with online store entries.
+- **Data Reconciliation:** Solves real-world discrepancies between warehouse trays and digital SKUs.
+
+## 🛠️ Tech Stack
+- **Python 3.x**
+- **Shopify Admin API (GraphQL & REST)**
+- **Google Gemini AI API**
+- **Pandas / JSON / CSV Data Processing**
+
+---
+*Note: Sensitive credentials (API Keys) are managed via localized environment variables and are not included in this repository.*

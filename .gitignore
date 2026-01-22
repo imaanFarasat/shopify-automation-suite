@@ -1,0 +1,17 @@
+# Security
+.env
+.env.local
+credentials.json
+token.json
+shopify_metadata_updater.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
