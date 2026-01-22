@@ -7,6 +7,7 @@ I used these tools to transform *Reza Gem Collection* from a manual operation to
 *   **SEO Domination:** Achieved **Rank #1** on Google for **94 competitive keywords** (like "blue gemstones" & "unakite") and secured **Top 3 positions** for 111+ high-intent search terms.
 *   **Sales Performance:** Automation contributed to over **$30,000+ in Total Sales** (Organic / No Ad Spend), including record-breaking single-day performance.
 *   **Scale:** Successfully managing **16,000+ SKUs** across digital and physical inventories.
+*   **Marketing Automation:** Engineered a data-fetching system to auto-generate email subject lines and content from collection data using **LLM prompts**, reducing campaign creation time by 50%.
 *   **Efficiency:** Automated the tracking of **1,000+ keywords**, saving ~20 hours of manual work per week.
 
 ## 📂 Project Structure
