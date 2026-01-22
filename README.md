@@ -32,6 +32,18 @@ This repository contains a collection of Python tools designed to automate compl
 - **Fuzzy Matching:** Intellectually matches offline product names with online store entries.
 - **Data Reconciliation:** Solves real-world discrepancies between warehouse trays and digital SKUs.
 
+### 5. Desktop GUI Applications (Tkinter)
+**Description:** A suite of local desktop applications for managing Shopify data without using the browser.
+*   **`gui_internal_link_builder.py`**: A sophisticated SEO tool that automatically builds internal links within product descriptions based on keywords. Features a clear GUI and threading for background processing.
+*   **`gui_collection_manager.py`**: A desktop dashboard for fetching and managing collection data locally.
+*   **`gui_description_manager.py`**: A comprehensive tool for managing, editing, and bulk-uploading product descriptions via the API.
+
+### 6. `product_image_exporter.py`
+**Description:** A high-performance utility for digital asset management.
+**Key Features:**
+- **GraphQL Pagination:** optimized for fetching large datasets (products + all nested images).
+- **Metadata Export:** exports full image metadata (URLs, alt text, dimensions) for analysis.
+
 ## 🛠️ Tech Stack
 - **Python 3.x**
 - **Shopify Admin API (GraphQL & REST)**
