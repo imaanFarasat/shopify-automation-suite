@@ -51,6 +51,13 @@ I used these tools to transform *Reza Gem Collection* from a manual operation to
 - **GraphQL Pagination:** optimized for fetching large datasets (products + all nested images).
 - **Metadata Export:** exports full image metadata (URLs, alt text, dimensions) for analysis.
 
+### 7. `drive_product_importer.py`
+**Description:** A complete "Drive-to-Shopify" pipeline.
+**Key Features:**
+- **Automated Sync:** Reads product data from JSON (Excel export) and automatically fetches matching images from Google Drive.
+- **Bulk Creation:** Creates products, variants, and metafields via the Admin API.
+- **Smart Grouping:** Logic to group rows into single products based on shared attributes (e.g. Color).
+
 ## 🛠️ Tech Stack
 - **Python 3.x**
 - **Shopify Admin API (GraphQL & REST)**
